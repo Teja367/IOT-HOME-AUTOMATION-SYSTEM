@@ -1,0 +1,25 @@
+// Home Automation System - LED Control using Arduino
+
+// Define pin numbers for LEDs
+const int redLED = 6;    // Red LED connected to digital pin 6
+const int yellowLED = 7; // Yellow LED connected to digital pin 7
+
+void setup() {
+  // Set the LED pins as output
+  pinMode(redLED, OUTPUT);
+  pinMode(yellowLED, OUTPUT);
+}
+
+void loop() {
+  // Turn ON Red LED
+  digitalWrite(redLED, HIGH);
+  // Turn OFF Yellow LED
+  digitalWrite(yellowLED, LOW);
+  delay(1000); // wait for 1 second
+
+  // Turn OFF Red LED
+  digitalWrite(redLED, LOW);
+  // Turn ON Yellow LED
+  digitalWrite(yellowLED, HIGH);
+  delay(1000); // wait for 1 second
+}
