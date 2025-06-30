@@ -41,3 +41,5 @@ Though this setup uses LEDs for demonstration, the same logic can be expanded to
 
 In conclusion, this Home Automation System is a foundational project for those interested in smart home technology. It offers hands-on learning with a clear path for scaling up to real-world applications using the same core concepts and hardware.
 
+![Image](https://github.com/user-attachments/assets/af8866fb-978c-46e0-91da-8d531d73471b)
+
